@@ -12,7 +12,7 @@
 }
 
 .bg_yellow {
-    background-color: var(--yellow6);
+    background-color: var(--yellow5);
 }
 
 .bg_green {
@@ -29,6 +29,14 @@
 
 .bg_pink {
     background-color: var(--pink6);
+}
+
+.bg_dark{
+    background-color: #333;
+}
+
+.bg_light{
+    background-color: #fff;
 }
 
 /* ************** Background color ends *********** */

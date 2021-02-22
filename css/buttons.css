@@ -1,0 +1,359 @@
+@import "./root.css";
+@import "./utilities.css";
+
+/* Default Button */
+/* Important */
+.btn{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    background: var(--blue7);
+    font-size: 1.2rem;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+/* ******************Different Color Buttons ******************/
+
+.btn_grey{
+    background: var(--grey7);
+    color: #fff;
+}
+
+.btn_red{
+    background: var(--red6);
+    color: #fff;
+}
+
+.btn_yellow{
+    background: var(--yellow5);
+    color: #fff;
+}
+
+.btn_green{
+    background: var(--green6);
+    color: #000;
+}
+
+.btn_blue{
+    background: var(--blue7);
+}
+
+.btn_purple{
+    background: var(--purple6);
+}
+
+.btn_pink{
+    background: var(--pink6);
+}
+
+.btn_dark{
+    background: #333;
+}
+
+.btn_light{
+    background: #fff;
+    color: #000;
+}
+
+/* ******************Different Color Buttons ends ******************/
+
+/* ****************** Outline Buttons ******************/
+
+.btn_outline_grey{
+    background: none;
+    border: 1px solid var(--grey7);
+    color: var(--grey7);
+    transition: all .2s ease;
+}
+.btn_outline_grey:hover{
+    background:  var(--grey7);
+    border: 1px solid var(--grey7);
+    color: #fff;
+}
+
+.btn_outline_red{
+    background: none;
+    border: 1px solid var(--red6);
+    color: var(--red6);
+    transition: all .2s ease;
+}
+.btn_outline_red:hover{
+    background:  var(--red6);
+    border: 1px solid var(--red6);
+    color: #fff;
+}
+
+.btn_outline_yellow{
+    background: none;
+    border: 1px solid var(--yellow5);
+    color: var(--yellow5);
+    transition: all .2s ease;
+}
+.btn_outline_yellow:hover{
+    background:  var(--yellow5);
+    border: 1px solid var(--yellow5);
+    color: #000;
+}
+
+.btn_outline_green{
+    background: none;
+    border: 1px solid var(--green6);
+    color: var(--green6);
+    transition: all .2s ease;
+}
+.btn_outline_green:hover{
+    background:  var(--green6);
+    border: 1px solid var(--green6);
+    color: #fff;
+}
+
+.btn_outline_blue{
+    background: none;
+    border: 1px solid var(--blue7);
+    color: var(--blue7);
+    transition: all .2s ease;
+}
+.btn_outline_blue:hover{
+    background:  var(--blue7);
+    border: 1px solid var(--blue7);
+    color: #fff;
+}
+
+.btn_outline_purple{
+    background: none;
+    border: 1px solid var(--purple6);
+    color: var(--purple6);
+    transition: all .2s ease;
+}
+.btn_outline_purple:hover{
+    background:  var(--purple6);
+    border: 1px solid var(--purple6);
+    color: #fff;
+}
+
+.btn_outline_pink{
+    background: none;
+    border: 1px solid var(--pink6);
+    color: var(--pink6);
+    transition: all .2s ease;
+}
+.btn_outline_pink:hover{
+    background:  var(--pink6);
+    border: 1px solid var(--pink6);
+    color: #fff;
+}
+
+.btn_outline_dark{
+    background: none;
+    border: 1px solid #333;
+    color: #333;
+    transition: all .2s ease;
+}
+.btn_outline_dark:hover{
+    background:  #333;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+.btn_outline_light{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .2s ease;
+}
+.btn_outline_light:hover{
+    background:  #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+/* ****************** Outline Buttons ends ******************/
+
+
+/* ****************** Button Sizes ******************/
+.btn_lg{
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.8rem;
+}
+
+.btn_sm{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* ****************** Button Size ends ******************/
+
+/* ****************** Hover Buttons ******************/
+.btn_grey:hover{
+    background-color: var(--grey8);
+}
+
+.btn_red:hover{
+    background-color: var(--red7);
+}
+
+.btn_yellow:hover{
+    background-color: var(--yellow6);
+}
+
+.btn_green:hover{
+    background-color: var(--green7);
+}
+
+.btn_blue:hover{
+    background-color: var(--blue8);
+}
+
+.btn_purple:hover{
+    background-color: var(--purple7);
+}
+
+.btn_pink:hover{
+    background-color: var(--pink7);
+}
+
+.btn_dark:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+.btn_light:hover{
+    background-color: rgb(189, 185, 185);
+}
+
+/* ****************** Hover Buttons ends ******************/
+
+/* ****************** Active Button ******************/
+.btn_grey_active{
+    background-color: var(--grey7);
+}
+.btn_grey_active:active{
+    background-color: var(--grey8);
+}
+
+.btn_red_active{
+    background-color: var(--red6);
+}
+.btn_red_active:active{
+    background-color: var(--red7);
+}
+
+.btn_yellow_active{
+    background-color: var(--yellow5);
+}
+.btn_yellow_active:active{
+    background-color: var(--yellow6);
+}
+
+.btn_green_active{
+    background-color: var(--green6);
+}
+.btn_green_active:active{
+    background-color: var(--green7);
+}
+
+.btn_blue_active{
+    background-color: var(--blue7);
+}
+.btn_blue_active:active{
+    background-color: var(--blue8);
+}
+
+.btn_purple_active{
+    background-color: var(--purple6);
+}
+.btn_purple_active:active{
+    background-color: var(--purple7);
+}
+
+.btn_pink_active{
+    background-color: var(--pink6);
+}
+.btn_pink_active:active{
+    background-color: var(--pink7);
+}
+
+.btn_dark_active{
+    background-color: #333;
+}
+.btn_dark_active:active{
+    background-color: rgb(36, 36, 36);
+}
+
+.btn_light_active{
+    background-color: #fff;
+}
+.btn_light_active:active{
+    background-color: rgb(189, 185, 185);
+}
+
+/* ****************** Active Button ends ******************/
+
+/* ****************** Focus Button ******************/
+.btn_grey_focus{
+    background-color: var(--grey7);
+}
+.btn_grey_focus:focus{
+    background-color: var(--grey8);
+}
+
+.btn_red_focus{
+    background-color: var(--red6);
+}
+.btn_red_focus:focus{
+    background-color: var(--red7);
+}
+
+.btn_yellow_focus{
+    background-color: var(--yellow5);
+}
+.btn_yellow_focus:focus{
+    background-color: var(--yellow6);
+}
+
+.btn_green_focus{
+    background-color: var(--green6);
+}
+.btn_green_focus:focus{
+    background-color: var(--green7);
+}
+
+.btn_blue_focus{
+    background-color: var(--blue7);
+}
+.btn_blue_focus:focus{
+    background-color: var(--blue8);
+}
+
+.btn_purple_focus{
+    background-color: var(--purple6);
+}
+.btn_purple_focus:focus{
+    background-color: var(--purple7);
+}
+
+.btn_pink_focus{
+    background-color: var(--pink6);
+}
+.btn_pink_focus:focus{
+    background-color: var(--pink7);
+}
+
+.btn_dark_focus{
+    background-color: #333;
+}
+.btn_dark_focus:focus{
+    background-color: rgb(36, 36, 36);
+}
+
+.btn_light_focus{
+    background-color: #fff;
+}
+.btn_light_focus:focus{
+    background-color: rgb(189, 185, 185);
+}
